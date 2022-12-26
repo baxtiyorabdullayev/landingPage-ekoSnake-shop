@@ -1,0 +1,68 @@
+/* core styles  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.title {
+    color: #000000;
+    font-family: 'Kodchasan', sans-serif;
+}
+
+.subtitle {
+    color: #000000;
+    font-family: 'Slabo 13px', serif;
+}
+
+
+/* nanbar saction  *******************************************/
+
+nav {
+    padding: 0 154px;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.nav-menus a {
+    padding-left: 80px;
+    text-decoration: none;
+    font-family: 'Slabo 13px', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+
+/* home page  ********************************************/
+.home {
+    padding: 160px 154px 287px 154px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-image {
+    width: 719px;
+    height: 524px;
+}
